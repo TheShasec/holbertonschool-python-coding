@@ -4,6 +4,7 @@
 
 class Square:
     """dfsdfsd"""
+    @size.setter
     def size(self, value):
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
@@ -12,7 +13,7 @@ class Square:
         self.__size = value
 
     def __init__(self, size=0):
-        size(size)
+        self.size = size
 
     def area(self):
         return self.__size * self.__size

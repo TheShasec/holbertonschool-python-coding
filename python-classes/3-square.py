@@ -5,7 +5,6 @@
 class Square:
     """dfsdfsd"""
 
-
     @property
     def size(self):
         return self.__size
